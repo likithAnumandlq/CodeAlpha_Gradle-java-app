@@ -12,3 +12,14 @@ The project is configured using a build.gradle file, which acts as the control c
 Technologies Used-
 Java
 Gradle
+
+How to Run
+1.Prerequisites: You must have a Java Development Kit (JDK) and Gradle installed.
+
+2.Clone the Repository: Clone this repository to your local machine.
+
+3.Build the Project: Open a terminal in the project's root directory and run the build command:gradle build
+
+4.Run the Application: Use the following command to execute the application:gradle run
+
+You will see the output "Hello from the Gradle App!" printed to the console.
