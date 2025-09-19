@@ -1,0 +1,20 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // This line automatically downloads and adds Google's Guava library
+    implementation 'com.google.guava:guava:31.1-jre'
+
+    // This is a standard library for testing
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+}
+
+application {
+    // Tells Gradle where the main entry point of the application is
+    mainClass = 'com.example.App'
+}
